@@ -26,6 +26,7 @@ function isDirectory(path, followSymlinks = true){
     return false;
 }
 
+
 /**
  * Returns all subdirectories (non-recursive) of a given path
  * which don't match an exclude pattern
